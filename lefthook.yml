@@ -1,4 +1,8 @@
 pre-commit:
   commands:
-    format:
-      run: npm run format:pre-commit --write {staged_files} && git add {staged_files}
+    lint:
+      run: npm run lint:pre-commit --fix {staged_files}
+      stage_fixed: true
+    # format:
+    #   run: npm run format:pre-commit --write {staged_files}
+    #   stage_fixed: true

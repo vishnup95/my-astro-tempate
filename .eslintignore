@@ -3,3 +3,5 @@ build
 dir
 dist
 .vscode
+package.json
+lefthook.yml
