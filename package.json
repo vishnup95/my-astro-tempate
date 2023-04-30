@@ -8,11 +8,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:pre-commit": "eslint",
+    "lint:pre-commit": "eslint --fix",
     "lint": "eslint --ext .js,.ts,.astro src",
     "lint:fix": "eslint --ext .js,.ts,.astro --fix src",
     "format": "prettier .",
-    "format:pre-commit": "prettier",
+    "format:pre-commit": "prettier --write",
     "format:check": "prettier --check src/",
     "format:fix": "prettier --write src/"
   },
