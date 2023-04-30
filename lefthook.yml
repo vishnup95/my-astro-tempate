@@ -37,6 +37,6 @@
 pre-commit:
   commands:
     lint:
-      run: npm run lint:fix
+      run: npm run lint && git add {staged_files}
     format:
-      run: npm run format:fix
+      run: npm run format:fix && git add {staged_files}
