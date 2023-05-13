@@ -5,3 +5,4 @@ dist
 .vscode
 package.json
 lefthook.yml
+pnpm-lock.yaml
