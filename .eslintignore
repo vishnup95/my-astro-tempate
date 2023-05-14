@@ -6,3 +6,7 @@ dist
 package.json
 package-lock.json
 lefthook.yml
+.nvmrc
+LICENSE
+pnpm-lock.yaml
+.prettierignore

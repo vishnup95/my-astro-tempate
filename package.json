@@ -8,11 +8,12 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix-dry-run --ext  .js,.ts,.astro src",
     "lint:fix": "eslint --ext .js,.ts,.astro --fix src",
-    "format": "prettier .",
-    "format:check": "prettier --check src/",
-    "format:fix": "prettier --write src/"
+    "format": "prettier  --plugin-search-dir=. .",
+    "format:check": "prettier --plugin-search-dir=. --check src/",
+    "format:fix": "prettier --plugin-search-dir=. --write src/"
   },
   "dependencies": {
     "astro": "^2.3.2"
