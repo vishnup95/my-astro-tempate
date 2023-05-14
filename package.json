@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:pre-commit": "eslint --fix",
+    "lint:pre-commit": "eslint",
     "lint": "eslint --ext .js,.ts,.astro src",
     "lint:fix": "eslint --ext .js,.ts,.astro --fix src",
     "format": "prettier .",

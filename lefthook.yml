@@ -1,7 +1,7 @@
 pre-commit:
   commands:
     lint:
-      run: npm run lint:pre-commit {staged_files}
+      run: npm run lint:pre-commit --fix {staged_files}
       stage_fixed: true
       interactive: true
     format:
