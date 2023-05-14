@@ -3,6 +3,8 @@ pre-commit:
     lint:
       run: npm run lint:pre-commit {staged_files}
       stage_fixed: true
+      interactive: true
     format:
       run: npm run format:pre-commit {staged_files}
       stage_fixed: true
+      interactive: true
