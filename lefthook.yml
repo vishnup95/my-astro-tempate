@@ -1,4 +1,5 @@
 pre-commit:
+  parellel: true
   commands:
     lint:
       run: pnpm exec eslint --ignore-path '.eslintignore' --fix {staged_files}
