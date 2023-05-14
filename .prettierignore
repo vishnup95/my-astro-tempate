@@ -4,3 +4,7 @@ dist
 build
 .vscode
 .eslintignore
+lefthook.yml
+.nvmrc
+LICENSE
+pnpm-lock.yaml
