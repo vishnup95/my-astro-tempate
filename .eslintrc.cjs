@@ -9,6 +9,7 @@ module.exports = {
     "plugin:astro/recommended",
     "@unocss",
     "plugin:astro/jsx-a11y-recommended",
+    "plugin:prettier/recommended",
   ],
   parserOptions: {
     ecmaVersion: "latest",
@@ -22,6 +23,9 @@ module.exports = {
       parserOptions: {
         parser: "@typescript-eslint/parser",
         extraFileExtensions: [".astro"],
+      },
+      rules: {
+        "prettier/prettier": "error",
       },
     },
     {
